@@ -23,7 +23,8 @@ function myFunction() {
             gold: true
         }
     };
-}
+    return myMusic;
+};
 
 myFunction()[2];
 module.exports = myFunction;
